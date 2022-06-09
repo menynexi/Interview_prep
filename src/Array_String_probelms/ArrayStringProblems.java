@@ -1,6 +1,6 @@
-package Arrays_and_Strings;
+package Array_String_probelms;
 
-class ArrayStringProblems{
+public class ArrayStringProblems {
   public static boolean isUnique(String str){
       if(str.length() == 0){
         return true;
@@ -18,6 +18,7 @@ class ArrayStringProblems{
   }
 
   public static void main(String[] args) {
+    //test cases for isUniquw
      System.out.println(isUnique("Hello")); //return false
      System.out.println(isUnique("car")); //return true
      System.out.println(isUnique("carr")); //return false
